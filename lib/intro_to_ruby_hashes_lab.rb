@@ -3,7 +3,7 @@ def new_hash
 end
 
 def my_hash
-  person.Hash.new { |person, name| hash[key] = Jeff  }
+  person = Hash.new { |hash, key| hash[key] =  }
 end
 
 def pioneer
